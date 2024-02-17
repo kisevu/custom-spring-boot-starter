@@ -1,8 +1,8 @@
-package dev.ameda.kisevu.jpsspringbootstarter;/*
+package dev.ameda.kisevu.jps;/*
 *
 @author ameda
 @project jps-spring-boot-starter
-@package dev.ameda.kisevu.jpsspringbootstarter
+@package dev.ameda.kisevu.jps
 *
 */
 

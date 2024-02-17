@@ -1,12 +1,12 @@
-package dev.ameda.kisevu.jpsspringbootstarter;/*
+package dev.ameda.kisevu.jps;/*
 *
 @author ameda
 @project jps-spring-boot-starter
-@package dev.ameda.kisevu.jpsspringbootstarter
+@package dev.ameda.kisevu.jps
 *
 */
 
-import dev.ameda.kisevu.jpsspringbootstarter.todo.JpsTodoClient;
+import dev.ameda.kisevu.jps.todo.JpsTodoClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.AutoConfiguration;

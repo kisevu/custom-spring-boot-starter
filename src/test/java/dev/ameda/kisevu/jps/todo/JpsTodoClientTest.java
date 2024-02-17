@@ -1,7 +1,7 @@
-package dev.ameda.kisevu.jpsspringbootstarter.todo;
+package dev.ameda.kisevu.jps.todo;
 
-import dev.ameda.kisevu.jpsspringbootstarter.JpsServiceConfiguration;
-import dev.ameda.kisevu.jpsspringbootstarter.JsonPlacerHolderServiceProperties;
+import dev.ameda.kisevu.jps.JpsServiceConfiguration;
+import dev.ameda.kisevu.jps.JsonPlacerHolderServiceProperties;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.autoconfigure.AutoConfigurations;
 import org.springframework.boot.autoconfigure.web.client.RestClientAutoConfiguration;
