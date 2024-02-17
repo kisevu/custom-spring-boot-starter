@@ -9,10 +9,12 @@ package dev.ameda.kisevu.jps.todo;/*
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 
 import java.util.List;
 
+@Component
 public class JpsTodoClient {
     private static final Logger logger = LoggerFactory.getLogger(JpsTodoClient.class);
     private final RestClient restClient;
