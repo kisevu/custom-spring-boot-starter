@@ -8,11 +8,11 @@
 		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>dev.ameda.kisevu</groupId>
-	<artifactId>jps-spring-boot-starter</artifactId>
+	<groupId>dev.ameda.kisevu.starterImpl</groupId>
+	<artifactId>hello-using-jps</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jps-spring-boot-starter</name>
-	<description>creating own starter and json placeholder starter service</description>
+	<name>hello-using-jps</name>
+	<description>Using my custom starter created prior which is available in my local repository .m2 </description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -22,9 +22,24 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>dev.ameda.kisevu</groupId>
+			<artifactId>jps-spring-boot-starter</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
